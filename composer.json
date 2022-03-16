@@ -1,0 +1,15 @@
+{
+  "require": {
+    "illuminate/database": "v4.2.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.6.0",
+    "guzzlehttp/guzzle": "~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Red5g\\": "app",
+      "Red5g\\Models\\": "app/models"
+    }
+  }
+}
